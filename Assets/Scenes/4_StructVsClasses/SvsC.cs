@@ -37,11 +37,12 @@ public class SvsC : MonoBehaviour {
 		TestStruct tS = new TestStruct();
 		TestStruct tS2 = tS;
 		tS2.x = 2;
-		Vector3 z = new Vector3(0, 0, 1);
-		Quaternion q = new Quaternion(0,0,0,1);
+//common structs used in Unity
+//		Vector3 z = new Vector3(0, 0, 1);
+//		Quaternion q = new Quaternion(0,0,0,1);
 		
 
-		Debug.Log("value of ts.x "+tS.x+ " value of ts2.x "+tc2.x);
+		Debug.Log("value of ts.x "+tS.x+ " value of ts2.x "+tS2.x);
 
 
 
