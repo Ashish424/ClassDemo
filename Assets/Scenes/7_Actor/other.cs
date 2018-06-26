@@ -8,7 +8,7 @@ public class other : MonoBehaviour{
 
 	[SerializeField] private PlayerActor p;
 	//do not use thiis
-//	[SerializeField] private GameObject t;
+	[SerializeField] private GameObject t;
 	// Use this for initialization
 	void Start () {
 		
@@ -26,10 +26,10 @@ public class other : MonoBehaviour{
 		
 		
 		//bad,replying on internal components
-//		if (t.GetComponent<SpriteRenderer>().color == Color.red &&
-//		    t.GetComponent<Rigidbody2D>().velocity.magnitude < 0.8f){
-//			Debug.Log("doing something");
-//		}
+		if (t.GetComponent<SpriteRenderer>().color == Color.red &&
+		    t.GetComponent<Rigidbody2D>().velocity.magnitude < 0.8f){
+			Debug.Log("doing something");
+		}
 		
 		
 	}

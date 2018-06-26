@@ -20,7 +20,7 @@ public class faller : MonoBehaviour{
 			
 
 			//time.deltatime return fixed time value in fixed update.
-			transform.position += new Vector3(move*Time.deltaTime,0);
+			transform.position += new Vector3(move*Time.fixedDeltaTime,0);
 
 			if (frameCount == 100){
 				Debug.Log("dsiplace is "+(transform.position-initPosition).magnitude);
